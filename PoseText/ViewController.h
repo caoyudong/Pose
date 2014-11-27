@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "Goods.h"
+#import "GoodShowList.h"
+#import "getNumByGoodsOfCart.h"
+#import "GetGoodsByBarcode.h"
+@interface ViewController : UIViewController{
+    NSArray *m_goodsInfo;
+    NSMutableArray *m_cartArray;
+    UITextField *m_textfiledInput;
+    UILabel *labellist;
+}
 
 
 @end

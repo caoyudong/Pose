@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D90F0481A15B374001EEB99 /* getNumByGoodsOfCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D90F0471A15B374001EEB99 /* getNumByGoodsOfCart.m */; };
+		0D90F04A1A15E462001EEB99 /* TrendGrowthTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D90F0491A15E462001EEB99 /* TrendGrowthTest.m */; };
 		0D9372051A130F90009E16F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9372041A130F90009E16F9 /* main.m */; };
 		0D9372081A130F90009E16F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9372071A130F90009E16F9 /* AppDelegate.m */; };
 		0D93720B1A130F90009E16F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D93720A1A130F90009E16F9 /* ViewController.m */; };
@@ -14,6 +16,11 @@
 		0D9372101A130F90009E16F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D93720F1A130F90009E16F9 /* Images.xcassets */; };
 		0D9372131A130F90009E16F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D9372111A130F90009E16F9 /* LaunchScreen.xib */; };
 		0D93721F1A130F90009E16F9 /* PoseTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D93721E1A130F90009E16F9 /* PoseTextTests.m */; };
+		0D97A8621A19F690007FAC32 /* GetGoodsByBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D97A8611A19F690007FAC32 /* GetGoodsByBarcode.m */; };
+		0D97A8641A19F6BB007FAC32 /* PrintByBarcodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D97A8631A19F6BB007FAC32 /* PrintByBarcodeTest.m */; };
+		0D99064A1A1449F000184577 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9906491A1449F000184577 /* Goods.m */; };
+		0D9906531A14812A00184577 /* GoodShowList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9906521A14812A00184577 /* GoodShowList.m */; };
+		0D9906561A1482FE00184577 /* GoodShowTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9906551A1482FE00184577 /* GoodShowTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D90F0461A15B374001EEB99 /* getNumByGoodsOfCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getNumByGoodsOfCart.h; sourceTree = "<group>"; };
+		0D90F0471A15B374001EEB99 /* getNumByGoodsOfCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getNumByGoodsOfCart.m; sourceTree = "<group>"; };
+		0D90F0491A15E462001EEB99 /* TrendGrowthTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendGrowthTest.m; sourceTree = "<group>"; };
 		0D9371FF1A130F90009E16F9 /* PoseText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoseText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9372031A130F90009E16F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D9372041A130F90009E16F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,14 @@
 		0D9372181A130F90009E16F9 /* PoseTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoseTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D93721D1A130F90009E16F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D93721E1A130F90009E16F9 /* PoseTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoseTextTests.m; sourceTree = "<group>"; };
+		0D97A8601A19F690007FAC32 /* GetGoodsByBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetGoodsByBarcode.h; sourceTree = "<group>"; };
+		0D97A8611A19F690007FAC32 /* GetGoodsByBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetGoodsByBarcode.m; sourceTree = "<group>"; };
+		0D97A8631A19F6BB007FAC32 /* PrintByBarcodeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintByBarcodeTest.m; sourceTree = "<group>"; };
+		0D9906481A1449F000184577 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		0D9906491A1449F000184577 /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		0D9906511A14812A00184577 /* GoodShowList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodShowList.h; sourceTree = "<group>"; };
+		0D9906521A14812A00184577 /* GoodShowList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodShowList.m; sourceTree = "<group>"; };
+		0D9906551A1482FE00184577 /* GoodShowTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodShowTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,7 @@
 		0D9371F61A130F90009E16F9 = {
 			isa = PBXGroup;
 			children = (
+				0D9906541A1482CE00184577 /* TestClass */,
 				0D9372011A130F90009E16F9 /* PoseText */,
 				0D93721B1A130F90009E16F9 /* PoseTextTests */,
 				0D9372001A130F90009E16F9 /* Products */,
@@ -89,6 +108,14 @@
 				0D93720F1A130F90009E16F9 /* Images.xcassets */,
 				0D9372111A130F90009E16F9 /* LaunchScreen.xib */,
 				0D9372021A130F90009E16F9 /* Supporting Files */,
+				0D9906481A1449F000184577 /* Goods.h */,
+				0D9906491A1449F000184577 /* Goods.m */,
+				0D9906511A14812A00184577 /* GoodShowList.h */,
+				0D9906521A14812A00184577 /* GoodShowList.m */,
+				0D90F0461A15B374001EEB99 /* getNumByGoodsOfCart.h */,
+				0D90F0471A15B374001EEB99 /* getNumByGoodsOfCart.m */,
+				0D97A8601A19F690007FAC32 /* GetGoodsByBarcode.h */,
+				0D97A8611A19F690007FAC32 /* GetGoodsByBarcode.m */,
 			);
 			path = PoseText;
 			sourceTree = "<group>";
@@ -117,6 +144,16 @@
 				0D93721D1A130F90009E16F9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D9906541A1482CE00184577 /* TestClass */ = {
+			isa = PBXGroup;
+			children = (
+				0D9906551A1482FE00184577 /* GoodShowTest.m */,
+				0D90F0491A15E462001EEB99 /* TrendGrowthTest.m */,
+				0D97A8631A19F6BB007FAC32 /* PrintByBarcodeTest.m */,
+			);
+			name = TestClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9906531A14812A00184577 /* GoodShowList.m in Sources */,
 				0D93720B1A130F90009E16F9 /* ViewController.m in Sources */,
 				0D9372081A130F90009E16F9 /* AppDelegate.m in Sources */,
+				0D99064A1A1449F000184577 /* Goods.m in Sources */,
+				0D90F0481A15B374001EEB99 /* getNumByGoodsOfCart.m in Sources */,
+				0D97A8621A19F690007FAC32 /* GetGoodsByBarcode.m in Sources */,
 				0D9372051A130F90009E16F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D90F04A1A15E462001EEB99 /* TrendGrowthTest.m in Sources */,
 				0D93721F1A130F90009E16F9 /* PoseTextTests.m in Sources */,
+				0D9906561A1482FE00184577 /* GoodShowTest.m in Sources */,
+				0D97A8641A19F6BB007FAC32 /* PrintByBarcodeTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +458,7 @@
 				0D9372241A130F90009E16F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D9372251A130F90009E16F9 /* Build configuration list for PBXNativeTarget "PoseTextTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +467,7 @@
 				0D9372271A130F90009E16F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
